@@ -1,0 +1,128 @@
+body{background-color: #188665;
+}
+
+.btn{
+  font-size: large;
+  margin-top: 130px;
+  padding: 20px 40px;
+  color: white;
+  background-color: rgb(251, 255, 0);
+  box-shadow: 1px 1px 5px black;
+}
+
+nav {
+  margin: 20px 0 ;
+  grid-area: n;
+  text-align: center;
+}
+
+nav a{
+  color: black;
+  border: 1px solid black;
+  padding: 10px 10px;
+  text-shadow: 1px 1px 5px gray;
+  box-shadow: 2px 2px 5px black;
+}
+
+.gaming{
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  margin: 50px 3%;
+  padding: 30px 10px;
+  box-shadow: 2px 2px 10px black;
+}
+
+.maths{
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 10px black;
+  margin: 50px 3%;
+  padding: 30px 10px;
+}
+
+header {
+  grid-area: h;
+  text-align: center;
+  padding: 20px 0;
+  text-shadow: 3px 4px 5px black;
+  color: white;
+  background-color: rgb(6, 110, 79);
+}
+
+nav {
+  margin: 20px 0 ;
+  grid-area: n;
+  text-align: center;
+}
+
+nav a{
+  color: black;
+  border: 1px solid black;
+  padding: 10px 10px;
+  text-shadow: 1px 1px 5px gray;
+  box-shadow: 2px 2px 5px black;
+}
+
+section {
+  grid-area: s;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  color: #ff3399;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  font-size: 35px;
+}
+
+.btn1 {background-color: #4ca0af;
+       font-size: 50px;
+      width: 800px;} 
+.btn2 {background-color: #008CBA;
+  font-size: 50px;
+  width: 800px;} 
+.btn3 {background-color: #36aef4;
+  font-size: 50px;
+  width: 800px;} 
+.btn4 {background-color: rgb(173, 219, 230);
+  font-size: 50px;
+  width: 800px;} 
+.txt {background-color: rgb(128, 186, 240);
+  font-size: 50px;
+  width: 800px;} 
+
+.btn1:hover {background-color: rgb(0, 109, 128);
+      font-size: 50px;
+     width: 800px;} 
+.btn2:hover {background-color: rgb(0, 87, 128);
+ font-size: 50px;
+ width: 800px;} 
+.btn3:hover {background-color: rgb(0, 92, 128);
+ font-size: 50px;
+ width: 800px;} 
+.btn4:hover {background-color: rgb(0, 66, 128);
+ font-size: 50px;
+ width: 800px;} 
+.txt:hover {background-color: rgb(0, 87, 128);
+ font-size: 50px;
+ width: 800px;} 
+
+.todo {
+position: absolute;
+top: 30%;
+left: 30%;
+margin: -25px 0 0 -25px;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.answer_button{
+   font-size: 50px;
+}

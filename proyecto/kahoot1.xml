@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE test [ 
+<!ELEMENT test (question+)>
+<!ELEMENT question (wording,choices)>
+<!ELEMENT wording (#PCDATA)>
+<!ELEMENT choices (choice+)>
+<!ELEMENT choice (#PCDATA)>
+ 
+<!ATTLIST question id CDATA #REQUIRED>
+<!ATTLIST choice correct (yes|no) "no">
+]>
+
+<test>
+<question id='1'>
+<wording>¿Cuál fue primero?</wording>
+<choices>
+<choice correct='yes'>PONG</choice>
+<choice correct='no'>TETRIS</choice>
+<choice correct='no'>PAC-MAN</choice>
+<choice correct='no'>DONKEY KONG</choice>
+</choices>
+</question>
+<question id='2'>
+<wording>¿Cómo se llama el hermano de Mario Bros?</wording>
+<choices>
+<choice correct='yes'>LUIGI</choice>
+<choice correct='no'>MARIO JR</choice>
+<choice correct='no'>HONGUITO</choice>
+<choice correct='no'>LUIS</choice>
+</choices>
+</question>
+<question id='3'>
+<wording>¿Cuántos luchadores hay en Street Fighter II?</wording>
+<choices>
+<choice correct='yes'>12</choice>
+<choice correct='no'>8</choice>
+<choice correct='no'>4</choice>
+<choice correct='no'>16</choice>
+</choices>
+</question>
+<question id='4'>
+<wording>¿Cuántas entradas para mandos tiene Nintendo 64?</wording>
+<choices>
+<choice correct='yes'>4</choice>
+<choice correct='no'>1</choice>
+<choice correct='no'>2</choice>
+<choice correct='no'>6</choice>
+</choices>
+</question>
+<question id='5'>
+<wording>¿Cuál es un videojuego de autos de carrera?</wording>
+<choices>
+<choice correct='yes'>TOP GEAR</choice>
+<choice correct='no'>SNAKE</choice>
+<choice correct='no'>FROGGER</choice>
+<choice correct='no'>R-TYPE</choice>
+</choices>
+</question>
+<question id='6'>
+<wording>¿Cómo se llama el enemigo de Sonic?</wording>
+<choices>
+<choice correct='yes'>DR.ROBOTNIK</choice>
+<choice correct='no'>ROBOTECH</choice>
+<choice correct='no'>TAILS</choice>
+<choice correct='no'>DR.MALO</choice>
+</choices>
+</question>
+<question id='7'>
+<wording>¿Cuál fue la primera consola de PlayStation?</wording>
+<choices>
+<choice correct='yes'>PS1</choice>
+<choice correct='no'>PS PROJECT</choice>
+<choice correct='no'>PLAY ONE</choice>
+<choice correct='no'>PLAYSTATION ORIGIN</choice>
+</choices>
+</question>
+<question id='8'>
+<wording>¿Cuál es el material de la primera espada que recibes en The Legend of Zelda?</wording>
+<choices>
+<choice correct='yes'>MADERA</choice>
+<choice correct='no'>HUESO</choice>
+<choice correct='no'>HIERRO</choice>
+<choice correct='no'>ACERO</choice>
+</choices>
+</question>
+<question id='9'>
+<wording>¿Cuál de estas consolas pertenece a la compañía Sony?</wording>
+<choices>
+<choice correct='yes'>PS4</choice>
+<choice correct='no'>XBOX ONE</choice>
+<choice correct='no'>NINTENDO SWITCH</choice>
+<choice correct='no'>NINGUNA</choice>
+</choices>
+</question>
+<question id='10'>
+<wording>¿Cómo se llama la ciudad en la que desenvuelve Resident Evil?</wording>
+<choices>
+<choice correct='yes'>RACCON CITY</choice>
+<choice correct='no'>NEW YORK</choice>
+<choice correct='no'>METROPOLIS</choice>
+<choice correct='no'>RESIDENT CITY</choice>
+</choices>
+</question>
+<question id='11'>
+<wording>¿Cuáles son los dos luchadores que siempre han aparecido en todas las versiones de Street Fighter?</wording>
+<choices>
+<choice correct='yes'>KEN Y RYU</choice>
+<choice correct='no'>RYU Y M.BISON</choice>
+<choice correct='no'>KEN Y GUILE</choice>
+<choice correct='no'>KEN Y BLANCA</choice>
+</choices>
+</question>
+<question id='12'>
+<wording>¿Cuánto tiempo se tenía para terminar Principe de Persia?</wording>
+<choices>
+<choice correct='yes'>60 MIN</choice>
+<choice correct='no'>50 MIN</choice>
+<choice correct='no'>120 MIN</choice>
+<choice correct='no'>90 MIN</choice>
+</choices>
+</question>
+<question id='13'>
+<wording>¿Cómo se llama el hijo adoptado de Heihachi de Tekken?</wording>
+<choices>
+<choice correct='yes'>KAZUYA</choice>
+<choice correct='no'>LIUHACHI</choice>
+<choice correct='no'>KASUMI</choice>
+<choice correct='no'>LARS</choice>
+</choices>
+</question>
+<question id='14'>
+<wording>¿Qué instrumento de viento suele usar Link de The Legend of Zelda?</wording>
+<choices>
+<choice correct='yes'>OCARINA</choice>
+<choice correct='no'>ARMÓNICA</choice>
+<choice correct='no'>SAXOFÓN</choice>
+<choice correct='no'>FLAUTA</choice>
+</choices>
+</question>
+<question id='15'>
+<wording>¿De qué personaje busca venganza Kratos en God of war?</wording>
+<choices>
+<choice correct='yes'>ARES</choice>
+<choice correct='no'>ZEUS</choice>
+<choice correct='no'>ATENEA</choice>
+<choice correct='no'>POSEIDON</choice>
+</choices>
+</question>
+<question id='16'>
+<wording>¿Cómo se llama la institución mental que sirve de escenario a Outlast?</wording>
+<choices>
+<choice correct='yes'>MOUNT MASSIVE</choice>
+<choice correct='no'>HOSPITAL ESTATAL DE FILADELFIA</choice>
+<choice correct='no'>HOSPITAL OUTLAST</choice>
+<choice correct='no'>HOSPITAL WHITTINGHAM</choice>
+</choices>
+</question>
+<question id='17'>
+<wording>¿Cómo se llama el protagonista de Halo?</wording>
+<choices>
+<choice correct='yes'>JEFE MAESTRO</choice>
+<choice correct='no'>JOHN</choice>
+<choice correct='no'>COMANDANTE TOTAL</choice>
+<choice correct='no'>SOLDADO MAESTRO</choice>
+</choices>
+</question>
+<question id='18'>
+<wording>¿En qué año fue lanzado Super Mario 64?</wording>
+<choices>
+<choice correct='yes'>1996</choice>
+<choice correct='no'>1995</choice>
+<choice correct='no'>1998</choice>
+<choice correct='no'>1999</choice>
+</choices>
+</question>
+<question id='19'>
+<wording>¿Cómo se llama el fundador de la compañía Nintendo?</wording>
+<choices>
+<choice correct='yes'>FUSAJIRO YAMAUCHI</choice>
+<choice correct='no'>SATORU IWATA</choice>
+<choice correct='no'>HIDEO KOJIMA</choice>
+<choice correct='no'>SHINGERU MIYAMOTO</choice>
+</choices>
+</question>
+<question id='20'>
+<wording>¿Qué es “lag”?</wording>
+<choices>
+<choice correct='yes'>RETARDO PRODUCIDO POR UNA TELECOMUNICACIÓN EN TIEMPO REAL</choice>
+<choice correct='no'>UN FENOMENO INEXPLICABLE</choice>
+<choice correct='no'>LO PEOR QUE TE PUEDE PASAR MIENTRAS JUEGAS</choice>
+<choice correct='no'>LA PESADILLA DE TODO GAMER</choice>
+</choices>
+</question>
+</test>

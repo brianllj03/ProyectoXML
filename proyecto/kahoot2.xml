@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE test [ 
+<!ELEMENT test (question+)>
+<!ELEMENT question (wording,choices)>
+<!ELEMENT wording (#PCDATA)>
+<!ELEMENT choices (choice+)>
+<!ELEMENT choice (#PCDATA)>
+ 
+<!ATTLIST question id CDATA #REQUIRED>
+<!ATTLIST choice correct (yes|no) "no">
+]>
+
+<test>
+<question id="1">
+    <wording>Adivina cuántos años tengo sabiendo que la tercera parte de ellos menos 1 es igual a la sexta parte</wording>
+    <choices>
+        <choice correct='yes'>6</choice>
+        <choice correct='no'>7</choice>
+        <choice correct='no'>5</choice>
+        <choice correct='no'>8</choice>
+    </choices>
+</question>
+<question id="2">
+    <wording>¿A cuánto equivale π?</wording>
+    <choices>
+        <choice correct='yes'>3,14</choice>
+        <choice correct='no'>3,15</choice>
+        <choice correct='no'>3,11</choice>
+        <choice correct='no'>3,12</choice>
+    </choices>
+</question>
+<question id="3">
+    <wording>7/5 + 2/3 - 1 =</wording>
+    <choices>
+        <choice correct='yes'>16/15</choice>
+        <choice correct='no'>8/8</choice>
+        <choice correct='no'>1</choice>
+        <choice correct='no'>17/15</choice>
+    </choices>
+</question>
+<question id="4">
+    <wording>¿Qué formula es esta? S = π x R²</wording>
+    <choices>
+        <choice correct='yes'>SUPERFICIE DE UN CIRCULO</choice>
+        <choice correct='no'>DIAMETRO DE UN CIRCULO</choice>
+        <choice correct='no'>VOLUMEN DE UN CILINDRO</choice>
+        <choice correct='no'>SUPERFICIE DE PARALELOGRAMOS</choice>
+    </choices>
+</question>
+<question id="5">
+    <wording>Por un bolso hemos pagado 50 euros, más el 21% de IVA. ¿Cuánto hemos tenido que pagar en total?</wording>
+    <choices>
+        <choice correct='yes'>60,50</choice>
+        <choice correct='no'>60</choice>
+        <choice correct='no'>61</choice>
+        <choice correct='no'>65</choice>
+    </choices>
+    </question>
+<question id="6">
+    <wording>¿Qué expresa esta formula? e = mc²</wording>
+    <choices>
+        <choice correct='yes'>EQUIVALENCIA ENTRE MASA Y ENERGÍA</choice>
+        <choice correct='no'>LA TEORIA DE LA PROBABILIDAD</choice>
+        <choice correct='no'>CIRCUNFERENCIA DE UN CIRCULO</choice>
+        <choice correct='no'>VOLUMEN DE UN CUBO</choice>
+    </choices>
+</question>
+<question id="7">
+    <wording>Una rueda de un coche da 4590 vueltas en 9 minutos. ¿Cuántas vueltas dará en 24 horas y 24 minutos?</wording>
+    <choices>
+        <choice correct='yes'>746640</choice>
+        <choice correct='no'>2868</choice>
+        <choice correct='no'>991440</choice>
+        <choice correct='no'>41310</choice>
+    </choices>
+</question>
+<question id="8">
+    <wording>¿Cuáles de los siguientes triángulos, según sus medidas son rectángulos?</wording>
+    <choices>
+        <choice correct='yes'>3CM, 4CM, 5CM</choice>
+        <choice correct='no'>3CM, 4CM, 15CM</choice>
+        <choice correct='no'>7CM, 4CM, 6CM</choice>
+        <choice correct='no'>5CM, 12CM, 13CM</choice>
+    </choices>
+</question>
+<question id="9">
+    <wording>(-3)³ + (-2)³ - (-3)³ + (-1)³ =</wording>
+    <choices>
+        <choice correct='yes'>-9</choice>
+        <choice correct='no'>10</choice>
+        <choice correct='no'>9</choice>
+        <choice correct='no'>-10</choice>
+    </choices>
+</question>
+<question id="10">
+    <wording>Juan tiene 20 años menos que su padre y este tiene el triple de los años de su hijo. ¿Qué edad tienen cada uno?</wording>
+    <choices>
+        <choice correct='yes'>10 JUAN, 30 EL PADRE</choice>
+        <choice correct='no'>11 JUAN, 31 EL PADRE</choice>
+        <choice correct='no'>12 JUAN, 32 EL PADRE</choice>
+        <choice correct='no'>13 JUAN, 33 EL PADRE</choice>
+    </choices>
+</question>
+<question id="11">
+    <wording>En una panadería con 80 kg son capaces de hacer 120 kg de pan. ¿Cuántos kg de harina serán necesarios para hacer 99 kg de pan?</wording>
+    <choices>
+        <choice correct='yes'>SI QUIERES HACER PANES NECESITAS 66KG</choice>
+        <choice correct='no'>SI QUIERES HACER PANES NECESITAS 58KG</choice>
+        <choice correct='no'>SI QUIERES HACER PANES NECESITAS 68KG</choice>
+        <choice correct='no'>SI QUIERES HACER PANES NECESITAS 79KG</choice>
+    </choices>
+</question>
+<question id="12">
+    <wording>¿Cuanto es 2 + 2?</wording>
+    <choices>
+        <choice correct='yes'>4</choice>
+        <choice correct='no'>2</choice>
+        <choice correct='no'>14</choice>
+        <choice correct='no'>7</choice>
+    </choices>
+</question>
+<question id="13">
+    <wording>¿Cuanto es 2 * 2?</wording>
+    <choices>
+        <choice correct='yes'>4</choice>
+        <choice correct='no'>3</choice>
+        <choice correct='no'>1</choice>
+        <choice correct='no'>0</choice>
+    </choices>
+</question>
+<question id="14">
+    <wording>¿Cuanto es 2 / 2?</wording>
+    <choices>
+        <choice correct='yes'>1</choice>
+        <choice correct='no'>0</choice>
+        <choice correct='no'>5</choice>
+        <choice correct='no'>6</choice>
+    </choices>
+</question>
+<question id="15">
+    <wording>¿Cuanto es 2 + 82?</wording>
+    <choices>
+        <choice correct='yes'>84</choice>
+        <choice correct='no'>75</choice>
+        <choice correct='no'>14</choice>
+        <choice correct='no'>86</choice>
+    </choices>
+</question>
+<question id="16">
+    <wording>¿Cuanto es 5 + 75?</wording>
+    <choices>
+        <choice correct='yes'>80</choice>
+        <choice correct='no'>75</choice>
+        <choice correct='no'>89</choice>
+        <choice correct='no'>63</choice>
+    </choices>
+</question>
+<question id="17">
+    <wording>¿Cuanto es 100 + 2?</wording>
+    <choices>
+        <choice correct='yes'>102</choice>
+        <choice correct='no'>105</choice>
+        <choice correct='no'>107</choice>
+        <choice correct='no'>106</choice>
+    </choices>
+</question>
+<question id="18">
+    <wording>¿Cuanto es 755 + 120?</wording>
+    <choices>
+        <choice correct='yes'>875</choice>
+        <choice correct='no'>900</choice>
+        <choice correct='no'>905</choice>
+        <choice correct='no'>890</choice>
+    </choices>
+</question>
+<question id="19">
+    <wording>¿Cuanto es 100 + 100?</wording>
+    <choices>
+        <choice correct='yes'>200</choice>
+        <choice correct='no'>202</choice>
+        <choice correct='no'>201</choice>
+        <choice correct='no'>325</choice>
+    </choices>
+    </question>
+<question id="20">
+    <wording>¿Cuanto es 5 * 5?</wording>
+    <choices>
+        <choice correct='yes'>25</choice>
+        <choice correct='no'>30</choice>
+        <choice correct='no'>75</choice>
+        <choice correct='no'>45</choice>
+    </choices>
+    </question>
+</test>
